@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+          body {
+          font-family: "Lato", sans-serif;
+          }
+  
+          .sidenav {
+          height: 100%;
+          width: 250px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #91ce7af1;
+          overflow-x: hidden;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          }
+  
+          .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: bold;
+          color: #000000;
+          display: block;
+          }
+  
+          .sidenav a:hover {
+          color: #f1f1f1;
+          }
+  
+          .main {
+          margin-left: 250px; 
+          font-size: 15px; 
+          padding: 25px 100px 450px 15px ;
+          text-align: justify;
+          }
+  
+          @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+          }
+          /* Three image containers (use 25% for four, and 50% for two, etc) */
+          .column {
+          float: left;
+          width: 48%;
+          padding: 3px;
+          }
+  
+          .column_2 {
+          float: left;
+          width: 32%;
+          padding: 3px;
+          }
+  
+          /* Clear floats after image containers */
+          .row::after {
+          content: "";
+          clear: both;
+          display: table;
+          }
+          .block {
+          display: block;
+          width: 95%;
+          border: none;
+          color: black;
+          background-color: #ebeeec;
+          margin: 5px;
+          margin-right: 15px;
+          padding: 5px 2px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: left;
+          transition: transform 0.3s; /* Transição suave ao dar zoom */
+          }
+  
+          .block:hover {
+              transform: scale(1.1); /* Zoom ao passar o mouse */
+          }
+  
+          .circle {
+          background-color: #aaa;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          margin-left: 80px;
+          overflow: hidden;
+          position: relative;
+          }
+  
+          .circle img {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          }
+  
+          .container {
+          display: flex;
+          align-items: center;
+          }
+  
+          .logo {
+          font-size: 20px;
+          color: #fafbfc;
+          margin-left: 2px;
+          }
+  
+          .name {
+          font-size: 15px;
+          font-weight: bold;
+          margin-left: 20px;
+          }
+      </style>
+  </head>
+  <body>
+    <div class="sidenav">
+        <div class="circle">
+            <img src="https://avatars.githubusercontent.com/u/100801617?s=400&u=fc908334e7216735755a93219dd9ed856223b43b&v=4">
+        </div>
+        
+        <div class="container">
+            <div class="name">Rafael Soares da Silva</div>
+            <a href="https://www.linkedin.com/in/83rafasoares/"><i class="fa fa-linkedin logo"></i></a>
+          </div>
+        <hr>
+    </div>
+  </body>
+</html> 
